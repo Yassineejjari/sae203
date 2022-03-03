@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "campton";
+    src: url(../fonts/CamptonBold.otf);
+}
+
+@font-face {
+    font-family: "camptonItalic";
+    src: url(../fonts/CamptonBoldItalic.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    font-family: campton;
+    background-color: #e6e3e3;
+}
+
+#nav_bg {
+    background-color: #d6d6d6;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+}
+
+#nav {
+    background-color: #d6d6d6;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+}
+
+#logo {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#logo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: "camptonItalic";
+    margin-left: 5vw;
+}
+
+#nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    height: 100%;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    list-style: none;
+}
+
+#nav ul li a {
+    padding: 2vh;
+    color: #000;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    background-color: #a7a7a7;
+    border-radius: 5px;
+}
+
+
+/* main */
+
+main {
+    width: 100%;
+    height: 200vh;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    height: 30vh;
+}
+
+#footer_nav {
+    height: 20vh;
+    font-family: "camptonItalic";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+}
+
+#footer_nav li {
+    list-style: none;
+}
+
+#footer_nav li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#footer_nav li a:hover {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+#footer_copyright {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#footer_copyright h3 {
+    margin: 0;
+    padding: 0;
+}
