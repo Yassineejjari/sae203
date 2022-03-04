@@ -1,0 +1,230 @@
+@font-face {
+    font-family: "campton";
+    src: url(../fonts/CamptonBold.otf);
+}
+
+@font-face {
+    font-family: "camptonItalic";
+    src: url(../fonts/CamptonBoldItalic.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+    font-family: campton;
+    background-color: #e6e3e3;
+}
+
+#nav_bg {
+    background-color: #d6d6d6;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+}
+
+#nav {
+    background-color: #d6d6d6;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+}
+
+#logo {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-image: url();
+}
+
+#logo h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: "camptonItalic";
+    margin-left: 5vw;
+}
+
+#nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    height: 100%;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    list-style: none;
+}
+
+#nav ul li a {
+    padding: 2vh;
+    color: #000;
+    text-decoration: none;
+}
+
+#nav ul li a:hover {
+    background-color: #a7a7a7;
+    border-radius: 5px;
+}
+
+main {
+    width: 100%;
+    height: 60vh;
+}
+
+section {
+    margin-top: 5vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5vh;
+}
+
+article {
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    border: solid 2px #000;
+    border-radius: 10px;
+}
+
+.article-image {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-image div {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-image div img {
+    max-width: 10vw;
+    border: solid 2px #000;
+    border-radius: 10px;
+}
+
+.article-infos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.article-infos h1 {
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.article-infos h3 {
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #222222;
+    width: 100%;
+    height: 30vh;
+}
+
+#footer_nav {
+    height: 20vh;
+    font-family: "camptonItalic";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+}
+
+#footer_nav li {
+    list-style: none;
+}
+
+#footer_nav li a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#footer_nav li a:hover {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    background: #f2f2f2;
+}
+
+.recherche {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.rechercheTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.rechercheTerm:focus {
+    color: #00B4CC;
+}
+
+.rechercheBouton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.bar {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
+}
+
+#images img {
+    width: 200px;
+}
+
+#images img:hover {}
