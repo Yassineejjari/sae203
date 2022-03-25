@@ -2,24 +2,22 @@
 require 'debut_html.inc.php'
 
 ?>
+
 <body>
-    <div id="chien">
-        <h1>Le résultat de votre recherche est :</h1>
-    </div>
+    
+        <h1> Les maillots </h1>
+        <p>Le résultat de votre recherche est :</p>
 
-    '<article>
-                 <div class="article-image">
-                     <img src="images/2_ante.png">
-                     <p>Milwaukee Bucks Giannis Antetokounmpo Earned Edition Vert Swingman</p>
-                         <div>
-                         </div>
-                                </div>
-                                <div class="article-infos">
-                                </div>
-                            </article>
 </body>
+<hr />
+<?php
+    $maillot=$_GET['maillot'];
 
-
+    require 'lib_crud.inc.php';
+    $co=connexionBD();
+    afficherResultatRecherche($co, $maillot);
+    deconnexionBD($co);
+?>
 <?php
 
 require 'fin_html.inc.php'?>

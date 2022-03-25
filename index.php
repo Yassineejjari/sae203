@@ -7,7 +7,7 @@
 <main>
     <h1>Voici quelques maillots issues du jeu nba 2k22</h1>
 <div id="images">
-    <img src="https://2kdb.net/storage/players/2k22/giannis_antetokounmpo_52768.jpg" alt="" />
+    <img src="https://2kdb.net/storage/players/2k22/giannis_antetokounmpo_9199.jpg" alt="" />
         <img src="https://2kdb.net/storage/players/2k22/allen_iverson_8979.jpg" alt="" />
         <img src="https://2kdb.net/storage/players/2k22/lamelo_ball_9202.jpg" alt="" />
         <img src="https://2kdb.net/storage/players/2k22/stephen_curry_9061.jpg" alt="2015" />
